@@ -3,10 +3,10 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #cbdaf7;
-    background-image: 
-        radial-gradient(at 47% 33%, hsl(197.14, 98%, 73%) 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsl(218.18, 76%, 80%) 0, transparent 55%);
+    background-image: url(/bg_bggenerator_com.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 
 .cards {
@@ -40,9 +40,9 @@ body {
     align-items: flex-start;
     margin: 10px;
     padding: 10px 44px;
-    backdrop-filter: blur(13px) saturate(102%);
-    -webkit-backdrop-filter: blur(13px) saturate(102%);
-    background-color: rgba(179, 181, 181, 0.46);
+    backdrop-filter: blur(15px) saturate(102%);
+    -webkit-backdrop-filter: blur(13px) saturate(106%);
+    background-color: rgba(179, 181, 181, 0.1);
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
 }
@@ -57,9 +57,9 @@ body {
     margin: 10px;
     padding: 10px 44px;
     border-radius: 10px;
-    backdrop-filter: blur(18px) saturate(180%);
+    backdrop-filter: blur(10px) saturate(180%);
     -webkit-backdrop-filter: blur(18px) saturate(180%);
-    background-color: rgba(17, 25, 40, 0.75);
+    background-color: rgba(17, 25, 40, 0.25);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
