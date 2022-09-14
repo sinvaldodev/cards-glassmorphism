@@ -25,10 +25,22 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background: #ff7000;
+    background: #ff6f0083;
     padding: 10px 44px;
     margin: 10px;
     border-radius: 10px;
+    color:white;
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(18px) saturate(180%);
+}
+
+.card1 > .botao-login > .login-botao {
+    color: white;
+    border: 2px solid white;
+}
+
+.card1 > .botao-login > .login-botao:hover {
+    animation: teste3 0.5s both;
 }
 
 .card2 {
@@ -127,7 +139,7 @@ body {
 }
 
 .card3 > .botao-login > .login-botao:hover {
-    animation: teste2 0.5s both;
+    animation: teste3 0.5s both;
 }
 
 .login-botao:hover {
@@ -141,6 +153,12 @@ body {
 }
 
 @keyframes teste2 {
+    100% {
+        box-shadow: 0px 0px 15px white;
+    }
+}
+
+@keyframes teste3 {
     100% {
         box-shadow: 0px 0px 15px white;
     }
